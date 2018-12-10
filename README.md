@@ -1,6 +1,3 @@
-**NO LONGER MAINTAINED** I'm no longer maintaing this project having moved my blog to Jekyll. The last version this theme was tested against Ghost was version 1.00.
-
-
 # Daring
 
 Inspired by John Gruber's [Daring Fireball](http://daringfireball.net) link blog, Daring is a similar theme for users of Ghost. It favours text over images and doesn't handle cover images or post images in Ghost.
@@ -8,6 +5,8 @@ Inspired by John Gruber's [Daring Fireball](http://daringfireball.net) link blog
 ![Screenshot of Daring](https://s3-eu-west-1.amazonaws.com/s3.matthewlang.net/assets/daring-screenshot.png)
 
 Daring is based on the excellent [Poole](http://getpoole.com) by [Mark Otto](https://github.com/mdo).
+
+Updated for Ghost 2.0.
 
 
 ## Contents
@@ -32,17 +31,22 @@ Daring contains pre-built themes for the following colours:
 - Purple
 - Brown
 - Blue
+- Orange Dark
 
 Each of these pre-built themes can be found in the `themes` folder.
 
 Simply, upload the compressed theme that you want to use to Ghost and activate it.
 
-## Author
+## Authors
 
 **Matthew Lang**
 - <https://www.matthewlang.net>
 - <https://github.com/matthewl>
 - <https://twitter.com/matthewlang>
+
+**Brandon Istenes**
+- <https://brandonistenes.com>
+- <https://github.com/brandones>
 
 
 ## License
