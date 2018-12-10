@@ -79,3 +79,31 @@ input[type='submit'].button-primary {
   background-color: #7cafc2;
   border-color: #7cafc2;
 }
+
+.orange-dark a {
+  color: #DD5142;
+}
+
+body.orange-dark {
+  background-color: #2E2C2F;
+  color: #D0CCD0;
+  border-top: 4px solid #DD6E42;
+}
+
+.orange-dark strong {
+  color: #CFE8EF;
+}
+
+.orange-dark input[type='submit'].button-primary {
+  background-color: #DD6E42;
+  border-color: #DD6E42;
+}
+
+.orange-dark h1, .orange-dark h2, .orange-dark h3, .orange-dark h4, .orange-dark h5, .orange-dark h6, .orange-dark nav > ul {
+  color: #DD6E42;
+}
+
+.orange-dark h1 a, .orange-dark h2 a, .orange-dark h3 a, .orange-dark h4 a, .orange-dark h5 a, .orange-dark h6 a, .orange-dark nav > ul a {
+  color: #DD6E42;
+}
+
