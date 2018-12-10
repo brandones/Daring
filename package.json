@@ -1,7 +1,7 @@
 {
     "name": "daring",
     "description": "A minimal theme for Ghost",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "engines": {
         "ghost": ">=1.0.0"
     },
@@ -20,5 +20,8 @@
             "Minimal",
             "Personal Blogs"
         ]
-    }
+    },
+    "keywords": [
+        "ghost-theme"
+    ]
 }

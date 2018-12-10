@@ -9,9 +9,15 @@
     </div>
   </header>
 
-  <section class="post">
-    {{content}}
-  </section>
+  {{#has tag="#long"}}
+    <section class="post-excerpt">
+        <p>{{excerpt}} <a class="keep-reading" href="{{url}}">read on...</a></p>
+    </section>
+  {{else}}
+    <section class="post">
+      {{content}}
+    </section>
+  {{/has}}
 </article>
 
 {{/foreach}}
