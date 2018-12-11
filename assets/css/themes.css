@@ -107,3 +107,14 @@ body.orange-dark {
   color: #DD6E42;
 }
 
+.orange-dark pre {
+  background-color: #484749;
+  color: #D0CCD0;
+}
+
+.orange-dark code {
+  background-color: #484749;
+  color: #D0CCD0;
+}
+
+
