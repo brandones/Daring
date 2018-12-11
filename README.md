@@ -37,6 +37,16 @@ Each of these pre-built themes can be found in the `themes` folder.
 
 Simply, upload the compressed theme that you want to use to Ghost and activate it.
 
+
+## Developing
+
+An [Invoke](http://www.pyinvoke.org/) file is included (`tasks.py`) to simplify development.
+If you make a change to the code, just run `invoke build` to rebuild the .zip files in `themes/`
+(after installing invoke with `pip install invoke`).
+
+Pull requests, especially to add more themes, are quite welcome.
+
+
 ## Authors
 
 **Matthew Lang**
