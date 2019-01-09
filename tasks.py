@@ -10,7 +10,7 @@ COLORS = ["Blue", "Brown", "Green", "Orange Dark", "Orange", "Purple", "Red"]
 
 @task
 def build(ctx):
-    """Does something"""
+    """ Builds a zip file per theme and puts them in themes/ """
     for color in COLORS:
         color_class = color.lower().replace(" ", "-")
         sed_cmd = "sed -i 's/body class=\"[^ ]*/body class=\"{}/' default.hbs".format(

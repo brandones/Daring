@@ -107,12 +107,12 @@ body.orange-dark {
   color: #DD6E42;
 }
 
-.orange-dark pre {
+.orange-dark pre:not([class*="language-"]) {
   background-color: #484749;
   color: #D0CCD0;
 }
 
-.orange-dark code {
+.orange-dark pre code:not([class*="language-"]) {
   background-color: #484749;
   color: #D0CCD0;
 }
