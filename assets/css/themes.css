@@ -86,12 +86,12 @@ input[type='submit'].button-primary {
 
 body.orange-dark {
   background-color: #2E2C2F;
-  color: #D0CCD0;
+  color: #E6E6E6;
   border-top: 4px solid #DD6E42;
 }
 
 .orange-dark strong {
-  color: #CFE8EF;
+  color: #d6c0b7;
 }
 
 .orange-dark input[type='submit'].button-primary {
@@ -109,12 +109,12 @@ body.orange-dark {
 
 .orange-dark pre:not([class*="language-"]) {
   background-color: #484749;
-  color: #D0CCD0;
+  color: #f7f7f7;
 }
 
-.orange-dark pre code:not([class*="language-"]) {
+.orange-dark code:not([class*="language-"]) {
   background-color: #484749;
-  color: #D0CCD0;
+  color: #f7f7f7;
 }
 
 
